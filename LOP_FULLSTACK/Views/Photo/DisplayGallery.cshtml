@@ -1,0 +1,17 @@
+﻿@model List<Photo>
+@{
+    ViewData["Title"] = "DisplayGallery";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>DisplayGallery</h1>
+
+<div class="row">
+    @foreach(var photo in Model)
+    {
+        <div class="col-12 col-md-3">
+            <partial name="_PhotoGallery" model="photo"/>
+
+        </div>
+    }
+</div>
