@@ -1,0 +1,24 @@
+﻿@model List<Comment>
+
+    <a href="@Url.Action("AddComment","Comment",new{id = ViewBag.PhotoId})">
+        Leave comment
+    </a>
+    @foreach(var comment in Model){
+        <div class="d-flex my-3">
+
+            <div class="flex-shink-0">
+                <img  src="https://placeimg.com/150/150/tech/grayscale" alt="..." class="rounded-circle">
+            </div>
+            <div class="flex-grow-1 ms-3">
+                <h3>
+                    @comment.Subject
+                </h3>
+                <h5>
+                    @comment.User
+                </h5>
+                <p>
+                    @comment.Body
+                </p>
+            </div>
+        </div>
+    }

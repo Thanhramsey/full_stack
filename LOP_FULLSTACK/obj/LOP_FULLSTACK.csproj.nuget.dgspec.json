@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\Demo\\LOP_FULLSTACK\\LOP_FULLSTACK\\LOP_FULLSTACK\\LOP_FULLSTACK.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\full_stack_course\\full_stack\\LOP_FULLSTACK\\LOP_FULLSTACK.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\Demo\\LOP_FULLSTACK\\LOP_FULLSTACK\\LOP_FULLSTACK\\LOP_FULLSTACK.csproj": {
+    "C:\\Users\\DELL\\Desktop\\full_stack_course\\full_stack\\LOP_FULLSTACK\\LOP_FULLSTACK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Demo\\LOP_FULLSTACK\\LOP_FULLSTACK\\LOP_FULLSTACK\\LOP_FULLSTACK.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\full_stack_course\\full_stack\\LOP_FULLSTACK\\LOP_FULLSTACK.csproj",
         "projectName": "LOP_FULLSTACK",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Demo\\LOP_FULLSTACK\\LOP_FULLSTACK\\LOP_FULLSTACK\\LOP_FULLSTACK.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Demo\\LOP_FULLSTACK\\LOP_FULLSTACK\\LOP_FULLSTACK\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\full_stack_course\\full_stack\\LOP_FULLSTACK\\LOP_FULLSTACK.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\full_stack_course\\full_stack\\LOP_FULLSTACK\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net6.0": {

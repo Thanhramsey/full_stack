@@ -20,7 +20,7 @@ namespace LOP_FULLSTACK.Controllers
         [HttpGet]
         public IActionResult DisplayGallery()
         {
-            var model = _photoService.GetPhotos();
+            var model = _photoService.Photos.ToList();
             return View(model);
         }
 
@@ -33,7 +33,12 @@ namespace LOP_FULLSTACK.Controllers
         [HttpGet]
         public IActionResult DisplayPhoto(int id)
         {
-            return View();
+            var photo = _photoService.Photos.FirstOrDefault(item=> item.PhotoId == id);
+            if(photo == null)
+            {
+                return NotFound();
+            }
+            return View(photo);
         }
 
         [HttpGet]

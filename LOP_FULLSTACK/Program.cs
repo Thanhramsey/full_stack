@@ -1,3 +1,4 @@
+using LOP_FULLSTACK.Models;
 using LOP_FULLSTACK.Services;
 using Newtonsoft.Json;
 
@@ -5,8 +6,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
 builder.Services.AddTransient<IPhotoService, PhotoService>();
+
+// register PhotoContext
+builder.Services.AddSingleton<PhotoContext>();
+
 
 var app = builder.Build();
 
